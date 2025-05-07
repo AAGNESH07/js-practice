@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Paragraph Text</title>
+</head>
+<body>
+
+  <!--<p id="myPara">This is the original paragraph text.</p>
+  <button id="myBtn">Click Me!</button>//> 
+
+   
+  <button id="toggleBtn">Toggle Background Color</button>  --->
+
+
+  
+  <input type="text" id="itemInput" placeholder="Enter item">
+  <button id="addBtn">Add Item</button>
+
+  <ul id="myList">
+    
+  </ul>
+
+
+
+
+  <form id="myForm">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="error" style="color:red;"></p>
+
+
+
+
+  
+
+<label for="password">Password:</label>
+<input type="password" id="password">
+
+<br>
+
+<input type="checkbox" id="showPassword">
+<label for="showPassword">Show Password</label>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Mini Projects</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+
+    .section {
+      margin-bottom: 40px;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .panel {
+      display: none;
+      padding: 10px;
+      background: #f0f0f0;
+    }
+
+    .accordion {
+      cursor: pointer;
+      background: #ccc;
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    ul { list-style: none; padding: 0; }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Live Character Counter -->
+  <div class="section">
+    <h2>1. Live Character Counter</h2>
+    <textarea id="message" rows="4" cols="40" placeholder="Type something..."></textarea>
+    <p>Characters: <span id="charCount">0</span></p>
+  </div>
+
+  <!-- 2. Accordion Toggle -->
+  <div class="section">
+    <h2>2. Accordion Toggle</h2>
+    <h3 class="accordion">Section 1</h3>
+    <div class="panel">This is the content of section 1.</div>
+
+    <h3 class="accordion">Section 2</h3>
+    <div class="panel">This is the content of section 2.</div>
+  </div>
+
+  <!-- 3. Search Filter -->
+  <div class="section">
+    <h2>3. Search Filter for List</h2>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <ul id="nameList">
+      <li>John</li>
+      <li>Jane</li>
+      <li>James</li>
+      <li>Jack</li>
+    </ul>
+  </div>
+
+  <!-- 4. Quiz App -->
+  <div class="section">
+    <h2>4. Quiz App with Score</h2>
+    <form id="quizForm">
+      <p>1. What is 2 + 2?</p>
+      <input type="radio" name="q1" value="3"> 3<br>
+      <input type="radio" name="q1" value="4"> 4<br><br>
+
+      <p>2. Capital of France?</p>
+      <input type="radio" name="q2" value="London"> London<br>
+      <input type="radio" name="q2" value="Paris"> Paris<br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>
