@@ -65,3 +65,32 @@ function add(a,b){
 let result = add(5,7);
 */
 
+// Higher order function
+/*welcome
+ register
+ login
+ thank you*/
+console.log("welcome");
+const Register=(apple) => {
+    setTimeout(() => {
+        console.log("please register");
+        apple()
+    },2000)
+}
+const login = () => {
+  setTimeout(() => {
+        console.log("please login");
+    },3000)
+}
+const thankyou = () => {
+  setTimeout(() => {
+        console.log("thank you");
+    },5000)
+}
+Register(function() {
+    console.log("i like apple")
+})
+login()
+thankyou()
+
+//
